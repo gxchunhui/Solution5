@@ -1,4 +1,36 @@
 import java.util.Scanner;
+import java.util.TreeSet;
+
+public class Solution5 {
+	public static void main(String[] args) {
+		//TreeSet<Integer> ts=new TreeSet<Integer>();
+		Scanner sc=new Scanner(System.in);
+		while(sc.hasNext())
+		{
+			TreeSet<Integer> ts=new TreeSet<Integer>();
+			int s=sc.nextInt();
+			if(s>0)
+			{
+				for(int i=0;i<s;i++)
+				{
+					ts.add(sc.nextInt());
+				
+					}
+				
+				}
+	
+			for(Integer it:ts)
+		{
+			System.out.println(it);
+		}
+		
+		}
+	}
+
+}
+
+/*import java.util.Scanner;
+import java.util.TreeSet;
 import java.util.Arrays;
   
 public class Solution5
@@ -21,4 +53,4 @@ public class Solution5
             }
         }
     }
-}
+}*/
